@@ -806,8 +806,9 @@ chmod 555 /system/etc/mobileap/tethering_enable.sh
 # end of Mobile AP
 
 # for TvOut
-#service tvout /system/bin/tvoutserver
-#user system
+service tvout /system/bin/tvoutserver
+user system
+group system
 
 #PC Internet Share
 
